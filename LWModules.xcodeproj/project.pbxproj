@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183DAD4C20764105002690DB /* LWNavigationComponentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DAD4B20764105002690DB /* LWNavigationComponentFactory.m */; };
+		183DAD5520772B76002690DB /* LWPullDownMenuContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DAD5420772B76002690DB /* LWPullDownMenuContainer.m */; };
+		183DAD582077331A002690DB /* LWPullDownMenuWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DAD572077331A002690DB /* LWPullDownMenuWindow.m */; };
+		183DAD5B20774541002690DB /* LWPullDownBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DAD5A20774541002690DB /* LWPullDownBaseViewController.m */; };
+		183DAE90207DC87A002690DB /* LWSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DAE8F207DC87A002690DB /* LWSegmentView.m */; };
+		183DAE93207DCE2F002690DB /* LWSegmentViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DAE92207DCE2F002690DB /* LWSegmentViewCollectionViewCell.m */; };
+		183DB01F2082F13A002690DB /* LWEditableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB01E2082F13A002690DB /* LWEditableLabel.m */; };
+		183DB0502083625F002690DB /* LWBottomMenuContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB04F2083625F002690DB /* LWBottomMenuContainer.m */; };
+		183DB05320836282002690DB /* LWBottomMenuWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB05220836282002690DB /* LWBottomMenuWindow.m */; };
+		183DB056208362AA002690DB /* LWBottomMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB055208362AA002690DB /* LWBottomMenuViewController.m */; };
+		184272E620735E6600160987 /* LWTextFieldMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 184272E320735E6600160987 /* LWTextFieldMenu.m */; };
+		184272E720735E6600160987 /* LWTextFieldMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184272E520735E6600160987 /* LWTextFieldMenuTableViewCell.m */; };
+		1842734F2074D9B500160987 /* LWCountDownComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842734E2074D9B500160987 /* LWCountDownComponent.m */; };
 		18B688FC206B71D700AEBDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688FB206B71D700AEBDAC /* AppDelegate.m */; };
 		18B688FF206B71D700AEBDAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688FE206B71D700AEBDAC /* ViewController.m */; };
 		18B68902206B71D700AEBDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B68900206B71D700AEBDAC /* Main.storyboard */; };
@@ -15,6 +28,24 @@
 		18B6890A206B71D700AEBDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68909206B71D700AEBDAC /* main.m */; };
 		18B68914206B71D700AEBDAC /* LWModulesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68913206B71D700AEBDAC /* LWModulesTests.m */; };
 		18B6891F206B71D700AEBDAC /* LWModulesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6891E206B71D700AEBDAC /* LWModulesUITests.m */; };
+		18B68933206B7AC400AEBDAC /* LWLoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68932206B7AC400AEBDAC /* LWLoginModule.m */; };
+		18B68937206B90DD00AEBDAC /* LWLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68936206B90DD00AEBDAC /* LWLoginRequest.m */; };
+		18B6894F206CB28600AEBDAC /* LWFlowLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6894E206CB28600AEBDAC /* LWFlowLayoutView.m */; };
+		18B68952206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68951206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.m */; };
+		18B68956206CC05500AEBDAC /* DemoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68955206CC05500AEBDAC /* DemoLoginViewController.m */; };
+		18B68959206CC09100AEBDAC /* DemoLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68958206CC09100AEBDAC /* DemoLoginInputView.m */; };
+		18B6895D206CE86E00AEBDAC /* LWErrorFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6895C206CE86E00AEBDAC /* LWErrorFilter.m */; };
+		18B68962206D0EC300AEBDAC /* ErrorCode.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 18B68961206CFF9500AEBDAC /* ErrorCode.geojson */; };
+		18B68A3C20709BE300AEBDAC /* LW_LoginBindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68A2F20709BE300AEBDAC /* LW_LoginBindModel.m */; };
+		18B68A3D20709BE300AEBDAC /* LW_LoginCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68A3220709BE300AEBDAC /* LW_LoginCommonModel.m */; };
+		18B68A3E20709BE300AEBDAC /* LW_LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68A3520709BE300AEBDAC /* LW_LoginModule.m */; };
+		18B68A3F20709BE300AEBDAC /* LW_LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68A3820709BE300AEBDAC /* LW_LoginRequest.m */; };
+		18B68A4020709BE300AEBDAC /* LW_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68A3B20709BE300AEBDAC /* LW_LoginViewController.m */; };
+		18B68A9A2071E1B400AEBDAC /* UIButton+LWEnlargeReact.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68A992071E1B400AEBDAC /* UIButton+LWEnlargeReact.m */; };
+		18B68AB02071E63C00AEBDAC /* UIViewController+LWOverwrite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68AAF2071E63C00AEBDAC /* UIViewController+LWOverwrite.m */; };
+		9972A85871673AEF6BC03FAB /* libPods-LWModulesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6CD5F936CA05DEAEF99D97 /* libPods-LWModulesTests.a */; };
+		9B32EAF527BCA2CD9E807ABB /* libPods-LWModulesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DC6DB93837CD4FE76C6DCA /* libPods-LWModulesUITests.a */; };
+		B88BA79FA66B2EA88D47E017 /* libPods-LWModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6699924A817BBC21AD2C2E11 /* libPods-LWModules.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +66,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0952F2B5297BFFDAD43066BA /* Pods-LWModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWModules.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWModules/Pods-LWModules.debug.xcconfig"; sourceTree = "<group>"; };
+		13DC6DB93837CD4FE76C6DCA /* libPods-LWModulesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWModulesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183DAD4A20764105002690DB /* LWNavigationComponentFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationComponentFactory.h; sourceTree = "<group>"; };
+		183DAD4B20764105002690DB /* LWNavigationComponentFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWNavigationComponentFactory.m; sourceTree = "<group>"; };
+		183DAD5320772B76002690DB /* LWPullDownMenuContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWPullDownMenuContainer.h; sourceTree = "<group>"; };
+		183DAD5420772B76002690DB /* LWPullDownMenuContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPullDownMenuContainer.m; sourceTree = "<group>"; };
+		183DAD562077331A002690DB /* LWPullDownMenuWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWPullDownMenuWindow.h; sourceTree = "<group>"; };
+		183DAD572077331A002690DB /* LWPullDownMenuWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPullDownMenuWindow.m; sourceTree = "<group>"; };
+		183DAD5920774541002690DB /* LWPullDownBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWPullDownBaseViewController.h; sourceTree = "<group>"; };
+		183DAD5A20774541002690DB /* LWPullDownBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPullDownBaseViewController.m; sourceTree = "<group>"; };
+		183DADD02078F070002690DB /* NICK_ThirdPartProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NICK_ThirdPartProtocol.h; sourceTree = "<group>"; };
+		183DAE8E207DC87A002690DB /* LWSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWSegmentView.h; sourceTree = "<group>"; };
+		183DAE8F207DC87A002690DB /* LWSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSegmentView.m; sourceTree = "<group>"; };
+		183DAE91207DCE2F002690DB /* LWSegmentViewCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWSegmentViewCollectionViewCell.h; sourceTree = "<group>"; };
+		183DAE92207DCE2F002690DB /* LWSegmentViewCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSegmentViewCollectionViewCell.m; sourceTree = "<group>"; };
+		183DB01D2082F13A002690DB /* LWEditableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWEditableLabel.h; sourceTree = "<group>"; };
+		183DB01E2082F13A002690DB /* LWEditableLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWEditableLabel.m; sourceTree = "<group>"; };
+		183DB04E2083625F002690DB /* LWBottomMenuContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBottomMenuContainer.h; sourceTree = "<group>"; };
+		183DB04F2083625F002690DB /* LWBottomMenuContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBottomMenuContainer.m; sourceTree = "<group>"; };
+		183DB05120836282002690DB /* LWBottomMenuWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBottomMenuWindow.h; sourceTree = "<group>"; };
+		183DB05220836282002690DB /* LWBottomMenuWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBottomMenuWindow.m; sourceTree = "<group>"; };
+		183DB054208362AA002690DB /* LWBottomMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBottomMenuViewController.h; sourceTree = "<group>"; };
+		183DB055208362AA002690DB /* LWBottomMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBottomMenuViewController.m; sourceTree = "<group>"; };
+		184272E220735E6600160987 /* LWTextFieldMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextFieldMenu.h; sourceTree = "<group>"; };
+		184272E320735E6600160987 /* LWTextFieldMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextFieldMenu.m; sourceTree = "<group>"; };
+		184272E420735E6600160987 /* LWTextFieldMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTextFieldMenuTableViewCell.h; sourceTree = "<group>"; };
+		184272E520735E6600160987 /* LWTextFieldMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTextFieldMenuTableViewCell.m; sourceTree = "<group>"; };
+		1842734D2074D9B500160987 /* LWCountDownComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCountDownComponent.h; sourceTree = "<group>"; };
+		1842734E2074D9B500160987 /* LWCountDownComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCountDownComponent.m; sourceTree = "<group>"; };
 		18B688F7206B71D700AEBDAC /* LWModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B688FA206B71D700AEBDAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B688FB206B71D700AEBDAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +111,42 @@
 		18B6891A206B71D700AEBDAC /* LWModulesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWModulesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B6891E206B71D700AEBDAC /* LWModulesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWModulesUITests.m; sourceTree = "<group>"; };
 		18B68920206B71D700AEBDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B68931206B7AC400AEBDAC /* LWLoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLoginModule.h; sourceTree = "<group>"; };
+		18B68932206B7AC400AEBDAC /* LWLoginModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLoginModule.m; sourceTree = "<group>"; };
+		18B68935206B90DD00AEBDAC /* LWLoginRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLoginRequest.h; sourceTree = "<group>"; };
+		18B68936206B90DD00AEBDAC /* LWLoginRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLoginRequest.m; sourceTree = "<group>"; };
+		18B6894D206CB28600AEBDAC /* LWFlowLayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWFlowLayoutView.h; sourceTree = "<group>"; };
+		18B6894E206CB28600AEBDAC /* LWFlowLayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWFlowLayoutView.m; sourceTree = "<group>"; };
+		18B68950206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWFlowLayoutTableViewCell.h; sourceTree = "<group>"; };
+		18B68951206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWFlowLayoutTableViewCell.m; sourceTree = "<group>"; };
+		18B68954206CC05500AEBDAC /* DemoLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoLoginViewController.h; sourceTree = "<group>"; };
+		18B68955206CC05500AEBDAC /* DemoLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLoginViewController.m; sourceTree = "<group>"; };
+		18B68957206CC09100AEBDAC /* DemoLoginInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoLoginInputView.h; sourceTree = "<group>"; };
+		18B68958206CC09100AEBDAC /* DemoLoginInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLoginInputView.m; sourceTree = "<group>"; };
+		18B6895B206CE86E00AEBDAC /* LWErrorFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWErrorFilter.h; sourceTree = "<group>"; };
+		18B6895C206CE86E00AEBDAC /* LWErrorFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWErrorFilter.m; sourceTree = "<group>"; };
+		18B68961206CFF9500AEBDAC /* ErrorCode.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = ErrorCode.geojson; sourceTree = "<group>"; };
+		18B68A2E20709BE300AEBDAC /* LW_LoginBindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LW_LoginBindModel.h; sourceTree = "<group>"; };
+		18B68A2F20709BE300AEBDAC /* LW_LoginBindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LW_LoginBindModel.m; sourceTree = "<group>"; };
+		18B68A3120709BE300AEBDAC /* LW_LoginCommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LW_LoginCommonModel.h; sourceTree = "<group>"; };
+		18B68A3220709BE300AEBDAC /* LW_LoginCommonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LW_LoginCommonModel.m; sourceTree = "<group>"; };
+		18B68A3420709BE300AEBDAC /* LW_LoginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LW_LoginModule.h; sourceTree = "<group>"; };
+		18B68A3520709BE300AEBDAC /* LW_LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LW_LoginModule.m; sourceTree = "<group>"; };
+		18B68A3720709BE300AEBDAC /* LW_LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LW_LoginRequest.h; sourceTree = "<group>"; };
+		18B68A3820709BE300AEBDAC /* LW_LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LW_LoginRequest.m; sourceTree = "<group>"; };
+		18B68A3A20709BE300AEBDAC /* LW_LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LW_LoginViewController.h; sourceTree = "<group>"; };
+		18B68A3B20709BE300AEBDAC /* LW_LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LW_LoginViewController.m; sourceTree = "<group>"; };
+		18B68A982071E1B400AEBDAC /* UIButton+LWEnlargeReact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LWEnlargeReact.h"; sourceTree = "<group>"; };
+		18B68A992071E1B400AEBDAC /* UIButton+LWEnlargeReact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LWEnlargeReact.m"; sourceTree = "<group>"; };
+		18B68AAE2071E63C00AEBDAC /* UIViewController+LWOverwrite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LWOverwrite.h"; sourceTree = "<group>"; };
+		18B68AAF2071E63C00AEBDAC /* UIViewController+LWOverwrite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LWOverwrite.m"; sourceTree = "<group>"; };
+		4543AFC0B576B6108B475179 /* Pods-LWModulesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWModulesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWModulesUITests/Pods-LWModulesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FB154F874E56F62B9C44271 /* Pods-LWModulesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWModulesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWModulesTests/Pods-LWModulesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61C26DEEB74E4FC969BDE749 /* Pods-LWModulesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWModulesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWModulesUITests/Pods-LWModulesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6699924A817BBC21AD2C2E11 /* libPods-LWModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BF21A01138A5822383E1F2 /* Pods-LWModulesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWModulesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWModulesTests/Pods-LWModulesTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD1FBFB6319654B99D32DA28 /* Pods-LWModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWModules.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWModules/Pods-LWModules.release.xcconfig"; sourceTree = "<group>"; };
+		FE6CD5F936CA05DEAEF99D97 /* libPods-LWModulesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWModulesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88BA79FA66B2EA88D47E017 /* libPods-LWModules.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9972A85871673AEF6BC03FAB /* libPods-LWModulesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +170,126 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B32EAF527BCA2CD9E807ABB /* libPods-LWModulesUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183DAD49207640E4002690DB /* LWNavigationComponentFactory */ = {
+			isa = PBXGroup;
+			children = (
+				183DAD4A20764105002690DB /* LWNavigationComponentFactory.h */,
+				183DAD4B20764105002690DB /* LWNavigationComponentFactory.m */,
+			);
+			path = LWNavigationComponentFactory;
+			sourceTree = "<group>";
+		};
+		183DAD522077296A002690DB /* LWPullDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				183DAD5320772B76002690DB /* LWPullDownMenuContainer.h */,
+				183DAD5420772B76002690DB /* LWPullDownMenuContainer.m */,
+				183DAD562077331A002690DB /* LWPullDownMenuWindow.h */,
+				183DAD572077331A002690DB /* LWPullDownMenuWindow.m */,
+				183DAD5920774541002690DB /* LWPullDownBaseViewController.h */,
+				183DAD5A20774541002690DB /* LWPullDownBaseViewController.m */,
+			);
+			path = LWPullDownMenu;
+			sourceTree = "<group>";
+		};
+		183DADCF2078F025002690DB /* NICK_ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				183DADD02078F070002690DB /* NICK_ThirdPartProtocol.h */,
+			);
+			name = NICK_ThirdPart;
+			path = LWModules/NICK_ThirdPart;
+			sourceTree = "<group>";
+		};
+		183DAE8D207DC81A002690DB /* LWSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				183DAE8E207DC87A002690DB /* LWSegmentView.h */,
+				183DAE8F207DC87A002690DB /* LWSegmentView.m */,
+				183DAE91207DCE2F002690DB /* LWSegmentViewCollectionViewCell.h */,
+				183DAE92207DCE2F002690DB /* LWSegmentViewCollectionViewCell.m */,
+			);
+			path = LWSegmentView;
+			sourceTree = "<group>";
+		};
+		183DB01C2082F124002690DB /* LWEditableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				183DB01D2082F13A002690DB /* LWEditableLabel.h */,
+				183DB01E2082F13A002690DB /* LWEditableLabel.m */,
+			);
+			path = LWEditableLabel;
+			sourceTree = "<group>";
+		};
+		183DB04D2083621E002690DB /* LWBottomMenu */ = {
+			isa = PBXGroup;
+			children = (
+				183DB04E2083625F002690DB /* LWBottomMenuContainer.h */,
+				183DB04F2083625F002690DB /* LWBottomMenuContainer.m */,
+				183DB05120836282002690DB /* LWBottomMenuWindow.h */,
+				183DB05220836282002690DB /* LWBottomMenuWindow.m */,
+				183DB054208362AA002690DB /* LWBottomMenuViewController.h */,
+				183DB055208362AA002690DB /* LWBottomMenuViewController.m */,
+			);
+			path = LWBottomMenu;
+			sourceTree = "<group>";
+		};
+		184272E020735E6600160987 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				183DB04D2083621E002690DB /* LWBottomMenu */,
+				183DB01C2082F124002690DB /* LWEditableLabel */,
+				183DAE8D207DC81A002690DB /* LWSegmentView */,
+				183DAD522077296A002690DB /* LWPullDownMenu */,
+				183DAD49207640E4002690DB /* LWNavigationComponentFactory */,
+				1842734C2074D9B500160987 /* LWCountDownComponent */,
+				184272E120735E6600160987 /* LWTextFieldMenu */,
+			);
+			name = Views;
+			path = LWModules/Views;
+			sourceTree = "<group>";
+		};
+		184272E120735E6600160987 /* LWTextFieldMenu */ = {
+			isa = PBXGroup;
+			children = (
+				184272E220735E6600160987 /* LWTextFieldMenu.h */,
+				184272E320735E6600160987 /* LWTextFieldMenu.m */,
+				184272E420735E6600160987 /* LWTextFieldMenuTableViewCell.h */,
+				184272E520735E6600160987 /* LWTextFieldMenuTableViewCell.m */,
+			);
+			path = LWTextFieldMenu;
+			sourceTree = "<group>";
+		};
+		1842734C2074D9B500160987 /* LWCountDownComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1842734D2074D9B500160987 /* LWCountDownComponent.h */,
+				1842734E2074D9B500160987 /* LWCountDownComponent.m */,
+			);
+			path = LWCountDownComponent;
+			sourceTree = "<group>";
+		};
 		18B688EE206B71D700AEBDAC = {
 			isa = PBXGroup;
 			children = (
+				183DADCF2078F025002690DB /* NICK_ThirdPart */,
+				184272E020735E6600160987 /* Views */,
+				18B68A942071D8C000AEBDAC /* LWNavigationBar */,
+				18B68953206CC04300AEBDAC /* Demo */,
+				18B68949206CB23600AEBDAC /* LWFlowLayoutViewController */,
 				18B688F9206B71D700AEBDAC /* LWModules */,
 				18B68912206B71D700AEBDAC /* LWModulesTests */,
 				18B6891D206B71D700AEBDAC /* LWModulesUITests */,
 				18B688F8206B71D700AEBDAC /* Products */,
+				A7A71A4B9552D0687895975B /* Pods */,
+				7A17ACE6D50896450319948F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +306,8 @@
 		18B688F9206B71D700AEBDAC /* LWModules */ = {
 			isa = PBXGroup;
 			children = (
+				18B6895A206CE7DF00AEBDAC /* LWErrorModules */,
+				18B6892D206B7A7400AEBDAC /* LWLoginModules */,
 				18B688FA206B71D700AEBDAC /* AppDelegate.h */,
 				18B688FB206B71D700AEBDAC /* AppDelegate.m */,
 				18B688FD206B71D700AEBDAC /* ViewController.h */,
@@ -132,6 +339,167 @@
 			path = LWModulesUITests;
 			sourceTree = "<group>";
 		};
+		18B6892D206B7A7400AEBDAC /* LWLoginModules */ = {
+			isa = PBXGroup;
+			children = (
+				18B6892E206B7A7400AEBDAC /* LWForgetPasswordModule */,
+				18B6892F206B7A7400AEBDAC /* LWLoginModule */,
+				18B68930206B7A7400AEBDAC /* LWRegisterModule */,
+			);
+			path = LWLoginModules;
+			sourceTree = "<group>";
+		};
+		18B6892E206B7A7400AEBDAC /* LWForgetPasswordModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LWForgetPasswordModule;
+			sourceTree = "<group>";
+		};
+		18B6892F206B7A7400AEBDAC /* LWLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A2C20709BE300AEBDAC /* Login */,
+				18B68931206B7AC400AEBDAC /* LWLoginModule.h */,
+				18B68932206B7AC400AEBDAC /* LWLoginModule.m */,
+				18B68935206B90DD00AEBDAC /* LWLoginRequest.h */,
+				18B68936206B90DD00AEBDAC /* LWLoginRequest.m */,
+			);
+			path = LWLoginModule;
+			sourceTree = "<group>";
+		};
+		18B68930206B7A7400AEBDAC /* LWRegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LWRegisterModule;
+			sourceTree = "<group>";
+		};
+		18B68949206CB23600AEBDAC /* LWFlowLayoutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18B6894D206CB28600AEBDAC /* LWFlowLayoutView.h */,
+				18B6894E206CB28600AEBDAC /* LWFlowLayoutView.m */,
+				18B68950206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.h */,
+				18B68951206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.m */,
+			);
+			name = LWFlowLayoutViewController;
+			path = LWModules/LWFlowLayoutViewController;
+			sourceTree = "<group>";
+		};
+		18B68953206CC04300AEBDAC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				18B68961206CFF9500AEBDAC /* ErrorCode.geojson */,
+				18B68954206CC05500AEBDAC /* DemoLoginViewController.h */,
+				18B68955206CC05500AEBDAC /* DemoLoginViewController.m */,
+				18B68957206CC09100AEBDAC /* DemoLoginInputView.h */,
+				18B68958206CC09100AEBDAC /* DemoLoginInputView.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		18B6895A206CE7DF00AEBDAC /* LWErrorModules */ = {
+			isa = PBXGroup;
+			children = (
+				18B6895B206CE86E00AEBDAC /* LWErrorFilter.h */,
+				18B6895C206CE86E00AEBDAC /* LWErrorFilter.m */,
+			);
+			path = LWErrorModules;
+			sourceTree = "<group>";
+		};
+		18B68A2C20709BE300AEBDAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A2D20709BE300AEBDAC /* BindModel */,
+				18B68A3020709BE300AEBDAC /* CommonModel */,
+				18B68A3320709BE300AEBDAC /* Module */,
+				18B68A3620709BE300AEBDAC /* Request */,
+				18B68A3920709BE300AEBDAC /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18B68A2D20709BE300AEBDAC /* BindModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A2E20709BE300AEBDAC /* LW_LoginBindModel.h */,
+				18B68A2F20709BE300AEBDAC /* LW_LoginBindModel.m */,
+			);
+			path = BindModel;
+			sourceTree = "<group>";
+		};
+		18B68A3020709BE300AEBDAC /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A3120709BE300AEBDAC /* LW_LoginCommonModel.h */,
+				18B68A3220709BE300AEBDAC /* LW_LoginCommonModel.m */,
+			);
+			path = CommonModel;
+			sourceTree = "<group>";
+		};
+		18B68A3320709BE300AEBDAC /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A3420709BE300AEBDAC /* LW_LoginModule.h */,
+				18B68A3520709BE300AEBDAC /* LW_LoginModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		18B68A3620709BE300AEBDAC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A3720709BE300AEBDAC /* LW_LoginRequest.h */,
+				18B68A3820709BE300AEBDAC /* LW_LoginRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		18B68A3920709BE300AEBDAC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A3A20709BE300AEBDAC /* LW_LoginViewController.h */,
+				18B68A3B20709BE300AEBDAC /* LW_LoginViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18B68A942071D8C000AEBDAC /* LWNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				18B68A982071E1B400AEBDAC /* UIButton+LWEnlargeReact.h */,
+				18B68A992071E1B400AEBDAC /* UIButton+LWEnlargeReact.m */,
+				18B68AAE2071E63C00AEBDAC /* UIViewController+LWOverwrite.h */,
+				18B68AAF2071E63C00AEBDAC /* UIViewController+LWOverwrite.m */,
+			);
+			name = LWNavigationBar;
+			path = LWModules/LWNavigationBar;
+			sourceTree = "<group>";
+		};
+		7A17ACE6D50896450319948F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6699924A817BBC21AD2C2E11 /* libPods-LWModules.a */,
+				FE6CD5F936CA05DEAEF99D97 /* libPods-LWModulesTests.a */,
+				13DC6DB93837CD4FE76C6DCA /* libPods-LWModulesUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A71A4B9552D0687895975B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0952F2B5297BFFDAD43066BA /* Pods-LWModules.debug.xcconfig */,
+				DD1FBFB6319654B99D32DA28 /* Pods-LWModules.release.xcconfig */,
+				4FB154F874E56F62B9C44271 /* Pods-LWModulesTests.debug.xcconfig */,
+				A1BF21A01138A5822383E1F2 /* Pods-LWModulesTests.release.xcconfig */,
+				61C26DEEB74E4FC969BDE749 /* Pods-LWModulesUITests.debug.xcconfig */,
+				4543AFC0B576B6108B475179 /* Pods-LWModulesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +507,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B68923206B71D700AEBDAC /* Build configuration list for PBXNativeTarget "LWModules" */;
 			buildPhases = (
+				1055DB216EEE90BF56D2EEF2 /* [CP] Check Pods Manifest.lock */,
 				18B688F3206B71D700AEBDAC /* Sources */,
 				18B688F4206B71D700AEBDAC /* Frameworks */,
 				18B688F5206B71D700AEBDAC /* Resources */,
+				1B56B53BA1105C01A52F2AE3 /* [CP] Embed Pods Frameworks */,
+				EFDAC11260CF4BE84D7981BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +527,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B68926206B71D700AEBDAC /* Build configuration list for PBXNativeTarget "LWModulesTests" */;
 			buildPhases = (
+				18B3F5E4BAEB48DED8AA5E55 /* [CP] Check Pods Manifest.lock */,
 				18B6890B206B71D700AEBDAC /* Sources */,
 				18B6890C206B71D700AEBDAC /* Frameworks */,
 				18B6890D206B71D700AEBDAC /* Resources */,
+				6EC3BB2FF124796A55F1330E /* [CP] Embed Pods Frameworks */,
+				EADBD1B906954D6ADE246B9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +548,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B68929206B71D700AEBDAC /* Build configuration list for PBXNativeTarget "LWModulesUITests" */;
 			buildPhases = (
+				D2BAC7B63D52C10CD98CB10B /* [CP] Check Pods Manifest.lock */,
 				18B68916206B71D700AEBDAC /* Sources */,
 				18B68917206B71D700AEBDAC /* Frameworks */,
 				18B68918206B71D700AEBDAC /* Resources */,
+				C04151ACE8EE64D896E87018 /* [CP] Embed Pods Frameworks */,
+				9A1541BA23D5CAF391182075 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +615,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B68962206D0EC300AEBDAC /* ErrorCode.geojson in Resources */,
 				18B68907206B71D700AEBDAC /* LaunchScreen.storyboard in Resources */,
 				18B68904206B71D700AEBDAC /* Assets.xcassets in Resources */,
 				18B68902206B71D700AEBDAC /* Main.storyboard in Resources */,
@@ -260,14 +638,193 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1055DB216EEE90BF56D2EEF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWModules-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18B3F5E4BAEB48DED8AA5E55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWModulesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B56B53BA1105C01A52F2AE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWModules/Pods-LWModules-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC3BB2FF124796A55F1330E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWModulesTests/Pods-LWModulesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1541BA23D5CAF391182075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWModulesUITests/Pods-LWModulesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04151ACE8EE64D896E87018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWModulesUITests/Pods-LWModulesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BAC7B63D52C10CD98CB10B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWModulesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADBD1B906954D6ADE246B9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWModulesTests/Pods-LWModulesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFDAC11260CF4BE84D7981BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LWModules/Pods-LWModules-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWModules/Pods-LWModules-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18B688F3206B71D700AEBDAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183DAD582077331A002690DB /* LWPullDownMenuWindow.m in Sources */,
+				1842734F2074D9B500160987 /* LWCountDownComponent.m in Sources */,
+				18B68A3C20709BE300AEBDAC /* LW_LoginBindModel.m in Sources */,
+				183DAD5520772B76002690DB /* LWPullDownMenuContainer.m in Sources */,
+				18B68A3D20709BE300AEBDAC /* LW_LoginCommonModel.m in Sources */,
+				18B68959206CC09100AEBDAC /* DemoLoginInputView.m in Sources */,
+				18B68933206B7AC400AEBDAC /* LWLoginModule.m in Sources */,
+				183DB056208362AA002690DB /* LWBottomMenuViewController.m in Sources */,
+				18B68956206CC05500AEBDAC /* DemoLoginViewController.m in Sources */,
+				183DAE90207DC87A002690DB /* LWSegmentView.m in Sources */,
+				18B6895D206CE86E00AEBDAC /* LWErrorFilter.m in Sources */,
+				18B68AB02071E63C00AEBDAC /* UIViewController+LWOverwrite.m in Sources */,
+				18B68A4020709BE300AEBDAC /* LW_LoginViewController.m in Sources */,
+				183DAD5B20774541002690DB /* LWPullDownBaseViewController.m in Sources */,
+				18B68A3F20709BE300AEBDAC /* LW_LoginRequest.m in Sources */,
+				183DAE93207DCE2F002690DB /* LWSegmentViewCollectionViewCell.m in Sources */,
 				18B688FF206B71D700AEBDAC /* ViewController.m in Sources */,
+				18B68952206CB2DC00AEBDAC /* LWFlowLayoutTableViewCell.m in Sources */,
+				184272E720735E6600160987 /* LWTextFieldMenuTableViewCell.m in Sources */,
+				18B68A9A2071E1B400AEBDAC /* UIButton+LWEnlargeReact.m in Sources */,
+				18B68A3E20709BE300AEBDAC /* LW_LoginModule.m in Sources */,
+				183DB01F2082F13A002690DB /* LWEditableLabel.m in Sources */,
+				18B68937206B90DD00AEBDAC /* LWLoginRequest.m in Sources */,
 				18B6890A206B71D700AEBDAC /* main.m in Sources */,
 				18B688FC206B71D700AEBDAC /* AppDelegate.m in Sources */,
+				183DAD4C20764105002690DB /* LWNavigationComponentFactory.m in Sources */,
+				18B6894F206CB28600AEBDAC /* LWFlowLayoutView.m in Sources */,
+				183DB0502083625F002690DB /* LWBottomMenuContainer.m in Sources */,
+				184272E620735E6600160987 /* LWTextFieldMenu.m in Sources */,
+				183DB05320836282002690DB /* LWBottomMenuWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +985,7 @@
 		};
 		18B68924206B71D700AEBDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0952F2B5297BFFDAD43066BA /* Pods-LWModules.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +1000,7 @@
 		};
 		18B68925206B71D700AEBDAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1FBFB6319654B99D32DA28 /* Pods-LWModules.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +1015,7 @@
 		};
 		18B68927206B71D700AEBDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB154F874E56F62B9C44271 /* Pods-LWModulesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +1031,7 @@
 		};
 		18B68928206B71D700AEBDAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BF21A01138A5822383E1F2 /* Pods-LWModulesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +1047,7 @@
 		};
 		18B6892A206B71D700AEBDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C26DEEB74E4FC969BDE749 /* Pods-LWModulesUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EP8K4CAKD;
@@ -500,6 +1062,7 @@
 		};
 		18B6892B206B71D700AEBDAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4543AFC0B576B6108B475179 /* Pods-LWModulesUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EP8K4CAKD;

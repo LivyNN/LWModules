@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+//#import "DemoLoginViewController.h"
+#import "LW_LoginViewController.h"
+#import "LWErrorFilter.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    UIViewController *test = [[LW_LoginViewController alloc] init] ;
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:test];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.rootViewController = navi;
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
+//
+//    [[LWErrorFilter shareInstance] lw_configWithJsonFilePath:@"ErrorCode" identityKey:@"code" defaultErrorHandling:^(NSString *errorCode, NSString *errorDescription) {
+//        NSLog(@"errorCode:%@",errorCode);
+//        NSLog(@"errorDescription:%@",errorDescription);
+//    }];
+//
+//    [[LWErrorFilter shareInstance] lw_configCustomizedErrorHandlingForError:@"AUTH13" withHandling:^(NSString *errorCode, NSString *errorDescription) {
+//        NSLog(@"%@",errorDescription);
+//    }];
     return YES;
 }
 
